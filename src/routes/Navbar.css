@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tilt+Warp&display=swap');
+
+
 *::before {
     margin: 0;
     box-sizing: border-box;
@@ -9,4 +12,90 @@ html {
 
 body {
     font-size: 1.6rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background: black;
+}
+
+.navlinks {
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.nav-lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 6rem;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 20px;
+}
+
+.nav-items:hover {
+    color: yellow;
+}
+
+
+.nav-toggle div{
+    width: 2rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: white;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-lists {
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        width: 100%;
+        height: 85vh;
+        background: black;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+    }
+}
+
+/* Navigation Activation */
+.nav_activate {
+    transform: translateX(0);
+}
+
+/* Toggle Animation */
+
+.toggle .navline1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+
+.toggle .navline2 {
+    opacity: 0;
+}
+
+.toggle .navline3 {
+    transform: rotate(45deg) translate(-4px, -5px);
 }
