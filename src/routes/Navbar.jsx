@@ -18,10 +18,10 @@ const Navbar = () => {
   return (
     <>
     <nav className="nav">
-        <a href='#Home.jsx' className='navlinks'>POL</a>
+        <a href='#Home.jsx' className='navlinks'>PAUL</a>
         <ul className={active}>
             <li className='navMenu'><a href='#Home.jsx' className='nav-items'>Home</a></li>
-            <li className='navMenu'><a href='#' className='nav-items'>Project</a></li>
+            <li className='navMenu'><a href='#Project.jsx' className='nav-items'>Project</a></li>
             <li className='navMenu'><a href='#' className='nav-items'>About</a></li>
             <li className='navMenu'><a href='#' className='nav-items'>Contact</a></li>
         </ul>

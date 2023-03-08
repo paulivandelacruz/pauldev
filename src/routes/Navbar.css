@@ -1,21 +1,4 @@
-*::before {
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font-size: 1.6rem;
-}
-
-li {
-    list-style: none;
-}
-
-a {
+.nav-items, .navlinks {
     text-decoration: none;
     color: white;
 }

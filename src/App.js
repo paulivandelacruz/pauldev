@@ -1,5 +1,7 @@
 import Navbar from './routes/Navbar'
 import Home from './routes/Home'
+import Project from './routes/Project'
+import './App.css'
 
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Home/>
+      <Project/>
     </div>
   );
 }

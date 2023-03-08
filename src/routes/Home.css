@@ -31,14 +31,18 @@
 }
 
 .my-name {
-    color: lightseagreen;
+    color: black;
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
 }
 
+.my-name span {
+    color: lightseagreen;
+}
+
 .intro-p {
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -47,6 +51,21 @@
     height: 100%;
     object-fit: contain;
     position: absolute;
+}
+
+.socials {
+    float: right;
+    list-style: none;
+}
+
+.social-links {
+    color: black;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.social-links:hover {
+    color: lightseagreen;
 }
 
 .my-bg1 {
