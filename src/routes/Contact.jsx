@@ -2,9 +2,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className='min-h-[85vh] lg:min-h-[70vh]' id='contact'>
+    <section className='section' id='contact'>
+      <div className='container mx-auto'>
       <div className='text-text'>
       Contact
+      </div>
       </div>
     </section>
   )
