@@ -15,6 +15,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#social-links a:hover{
+  color: #1d4ed8;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -28,7 +32,6 @@ code {
     #3bace2 100%,
     #406aff 117.04%
   );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
 
 .btn:hover {

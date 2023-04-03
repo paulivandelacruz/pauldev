@@ -6,7 +6,7 @@ const Header = () => {
     <header className= 'py-8'>
         <div className='container mx-auto'>
             <div className='flex justify-between items-center'>
-            <a href='#'>
+            <a href='home'>
                 <img src={Logo} alt=''/>
             </a>
             <h1 className='tracking-widest text-xl text-text'>Explore my Portfolio!</h1>

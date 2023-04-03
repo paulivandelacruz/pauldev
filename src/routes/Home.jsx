@@ -3,21 +3,31 @@ import Image from '../images/MyPicture.svg'
 import {AiOutlineCodepen, AiOutlineLinkedin, AiOutlineGithub, AiOutlineFacebook, AiOutlineInstagram} from 'react-icons/ai'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
-import { FadeIn } from 'react-fade-in'
+import { fadeIn } from '../variants'
 
 const Home = () => {
   
   return (
-    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
+    <section className='min-h-[85vh] lg:min-h-[70vh] flex items-center' id='home'>
       <div className='container mx-auto'>
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-10'>
           <div className='text-text flex-1 text-center lg:text-left'>
-            <h1 className='text-[55px] font-bold leading-[0.8] lg:text-[100px]'
+            <motion.h1
+              variants={fadeIn('up', 0.3)}
+              initial='hidden'
+              whileInView={'show'}
+              viewport={{once: false, amount: 0.7}}
+              className='text-[55px] font-bold leading-[0.8] lg:text-[90px]'
             >
               Hello I'm <span>Paul</span>
-            </h1>
+            </motion.h1>
           
-            <div className='mb-6 text-[36px] lg:text-[60px] leading-[1] text-text'>
+            <motion.div 
+            variants={fadeIn('up', 0.4)}
+            initial='hidden'
+            whileInView={'show'}
+            viewport={{once: false, amount: 0.7}}
+            className='mb-6 text-[36px] lg:text-[60px] leading-[1] text-text'>
               <span classname='mr-4'>A </span>
               <TypeAnimation sequence={[
                 'Web Developer',
@@ -32,30 +42,46 @@ const Home = () => {
                 wrapper='span'
                 repeat={Infinity}
               />
-            </div>
-          <p className='text-text mb-8 max-w-lg mx-auto lg:mx-0'>Reach me out if you need website for your business.
-          </p>
-            <div className='text-text flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href='#'>
+            </motion.div>
+          <motion.p 
+          variants={fadeIn('up', 0.5)}
+          initial='hidden'
+          whileInView={'show'}
+          viewport={{once: false, amount: 0.7}}
+          className='text-text mb-4 max-w-lg mx-auto lg:mx-0'>Reach me out if you need website for your business.
+          </motion.p>
+
+            <motion.div 
+            variants={fadeIn('up', 0.6)}
+            initial='hidden'
+            whileInView={'show'}
+            viewport={{once: false, amount: 0.7}}
+            className='text-text flex text-[20px] gap-x-4 max-w-max mx-auto lg:mx-0' id='social-links'>
+              <a href='https://www.facebook.com/plvndlcrz'>
                 <AiOutlineFacebook/>
               </a>
-              <a href='#'>
+              <a href='https://www.instagram.com/_paulivan.dlcrz/'>
                 <AiOutlineInstagram/>
               </a>
-              <a href='#'>
+              <a href='https://www.linkedin.com/in/paul-ivan-dela-cruz-806788241/'>
                 <AiOutlineLinkedin/>
               </a>
-              <a href='#'>
+              <a href='https://github.com/paulivandelacruz'>
                 <AiOutlineGithub/>
               </a>
-              <a href='#'>
+              <a href='https://codepen.io/paulivandev'>
                 <AiOutlineCodepen/>
               </a>
+            </motion.div>
             </div>
-            </div>
-          <div className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[700px] mx-auto'>
+
+          <motion.div 
+          variants={fadeIn('down', 0.5)}
+          initial='hidden'
+          whileInView={'show'}
+          className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[700px] mx-auto'>
             <img src={Image} alt=''/>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

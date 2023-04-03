@@ -20,21 +20,21 @@ const Navbar = () => {
         </Link>
 
         <Link 
-          to='project'
-          activeClass='active'
-          smooth={true}
-          spy={true}
-          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
-            <AiOutlineProject />
-        </Link>
-
-        <Link 
           to='about'
           activeClass='active'
           smooth={true}
           spy={true}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
             <AiOutlineUser />
+        </Link>
+
+        <Link 
+          to='project'
+          activeClass='active'
+          smooth={true}
+          spy={true}
+          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            <AiOutlineProject />
         </Link>
 
         <Link

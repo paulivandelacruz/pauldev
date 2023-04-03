@@ -4,7 +4,6 @@ import Project from './routes/Project'
 import About from './routes/About'
 import Contact from './routes/Contact'
 import Header from './routes/Header'
-import './App.css'
 
 
 function App() {
@@ -13,8 +12,8 @@ function App() {
       <Navbar/>
       <Header/>
       <Home/>
-      <Project/>
       <About/>
+      <Project/>
       <Contact/>
     <div className='h-[4000px]'></div>
     </div>
