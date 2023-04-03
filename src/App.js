@@ -4,6 +4,7 @@ import Project from './routes/Project'
 import About from './routes/About'
 import Contact from './routes/Contact'
 import Header from './routes/Header'
+import TechStack from './routes/TechStack'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <Home/>
       <About/>
+      <TechStack/>
       <Project/>
       <Contact/>
     <div className='h-[4000px]'></div>

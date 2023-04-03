@@ -1,4 +1,6 @@
+import React from 'react'
 import { AiOutlineHome, AiOutlineUser, AiOutlineProject, AiOutlinePhone  } from 'react-icons/ai'
+import { GrTechnology } from 'react-icons/gr'
 import { Link } from 'react-scroll'
 
 
@@ -26,6 +28,15 @@ const Navbar = () => {
           spy={true}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
             <AiOutlineUser />
+        </Link>
+
+        <Link 
+          to='techstack'
+          activeClass='active'
+          smooth={true}
+          spy={true}
+          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            <GrTechnology />
         </Link>
 
         <Link 

@@ -8,6 +8,8 @@ module.exports = {
       primary: 'Orbitron',
       secondary: 'Rajdhani',
       tertiary: 'Aldrich',
+      text: 'Bebas Neue',
+      text2: 'Alkatra',
 
     },
     container: {

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div className='section' id='project'>
-      Project
-    </div>
+    <section className='min-h-[85vh] lg:min-h-[70vh]' id='project'>
+      <div className='text-text'>Project</div>
+    </section>
     
   )
 }
