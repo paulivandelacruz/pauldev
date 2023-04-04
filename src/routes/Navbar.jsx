@@ -26,6 +26,7 @@ const Navbar = () => {
           activeClass='active'
           smooth={true}
           spy={true}
+          offset={-100}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
             <AiOutlineUser />
         </Link>
@@ -35,6 +36,7 @@ const Navbar = () => {
           activeClass='active'
           smooth={true}
           spy={true}
+          offset={-100}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
             <GrTechnology />
         </Link>
@@ -44,6 +46,7 @@ const Navbar = () => {
           activeClass='active'
           smooth={true}
           spy={true}
+          offset={-70}
           className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
             <AiOutlineProject />
         </Link>

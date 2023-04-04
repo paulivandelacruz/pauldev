@@ -12,6 +12,8 @@ import nextjs from '../images/nextjs.png'
 import tailwind from '../images/Tailwind.png'
 import bootstrap from '../images/bootstrap.png'
 import material from '../images/material.png'
+
+//motion and variants
 import { motion } from 'framer-motion'
 import {fadeIn} from '../variants'
 
@@ -19,13 +21,13 @@ const TechStack = () => {
   return (
     <section className='section' id='techstack'>
         <div className='container mx-auto p-4 flex flex-col justify-center w-full h-full '>
-            <div className='mt-[350px] lg:mt-0 lg:gap-y-0 h-screen '>
+            <div className='mt-[400px] lg:mt-0 lg:gap-y-0 h-screen '>
                 <motion.h1
                 variants={fadeIn('down', 0.3)}
                 initial='hidden'
                 whileInView={'show'}
-                viewport={{once: false, amount: 0.3}}
-                className='text-text text-4xl inline border-b-4 border-black lg:text-[70px]'
+                viewport={{once: true, amount: 0.3}}
+                className='text-text text-4xl  lg:text-[70px]'
                 
                 >Technology Stack
                 </motion.h1>
@@ -34,7 +36,7 @@ const TechStack = () => {
                 variants={fadeIn('down', 0.3)}
                 initial='hidden'
                 whileInView={'show'}
-                viewport={{once: false, amount: 0.3}}
+                viewport={{once: true, amount: 0.3}}
                 className='w-full grid grid-cols-3 sm:grid-cols-5 gap-4 text-center py-8 '
                 >
                     <div className='shadow-md shadow-[orange] hover:scale-110 duration-500'>

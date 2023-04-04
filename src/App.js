@@ -17,6 +17,7 @@ function App() {
       <TechStack/>
       <Project/>
       <Contact/>
+      <div className='h-[100px]'></div>
     </div>
   );
 }

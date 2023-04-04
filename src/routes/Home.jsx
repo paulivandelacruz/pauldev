@@ -16,7 +16,7 @@ const Home = () => {
               variants={fadeIn('up', 0.3)}
               initial='hidden'
               whileInView={'show'}
-              viewport={{once: false, amount: 0.7}}
+              viewport={{once: true, amount: 0.7}}
               className='text-[55px] font-bold leading-[0.8] lg:text-[90px]'
             >
               Hello I'm <span>Paul</span>
@@ -26,7 +26,7 @@ const Home = () => {
             variants={fadeIn('up', 0.4)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{once: false, amount: 0.7}}
+            viewport={{once: true, amount: 0.7}}
             className='mb-6 text-[36px] lg:text-[60px] leading-[1] text-text'>
               <span classname='mr-4'>A </span>
               <TypeAnimation sequence={[
@@ -47,7 +47,7 @@ const Home = () => {
           variants={fadeIn('up', 0.5)}
           initial='hidden'
           whileInView={'show'}
-          viewport={{once: false, amount: 0.7}}
+          viewport={{once: true, amount: 0.7}}
           className='text-text mb-4 max-w-lg mx-auto lg:mx-0'>Reach me out if you need website for your business.
           </motion.p>
 
@@ -55,7 +55,7 @@ const Home = () => {
             variants={fadeIn('up', 0.6)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{once: false, amount: 0.7}}
+            viewport={{once: true, amount: 0.7}}
             className='text-text flex text-[20px] gap-x-4 max-w-max mx-auto lg:mx-0' id='social-links'>
               <a href='https://www.facebook.com/plvndlcrz'>
                 <AiOutlineFacebook/>
@@ -79,6 +79,7 @@ const Home = () => {
           variants={fadeIn('down', 0.5)}
           initial='hidden'
           whileInView={'show'}
+          viewport={{once: true, amount: 0.7}}
           className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[700px] mx-auto'>
             <img src={Image} alt=''/>
           </motion.div>

@@ -5,10 +5,22 @@ import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 import img from '../images/about-me.svg'
 
+const PDF_FILE_URL='public/MyResumeDelaCruz.pdf'
+
 const About = () => {
   const [ref, inView] = useInView ({
     threshold: 0.5,
   });
+
+  const downloadFileAtURL = (url) => {
+    const fileName = url.split('/').pop();
+    const aTag = document.createElement('a');
+    aTag.href=url;
+    aTag.setAttribute('download', fileName)
+    document.body.appendChild(aTag)
+    aTag.click()
+    aTag.remove()
+  }
 
   return (
     <section className='section' id='about' ref={ref}>
@@ -18,7 +30,7 @@ const About = () => {
         variants={fadeIn('right', 0.3)}
         initial='hidden'
         whileInView={'show'}
-        viewport={{once: false, amount: 0.3}}
+        viewport={{once: true, amount: 0.3}}
         className='flex-1 h-[640px]'
         >
           <img src={img} alt=''></img>
@@ -28,7 +40,7 @@ const About = () => {
         variants={fadeIn('left', 0.5)}
         initial='hidden'
         whileInView={'show'}
-        viewport={{once: false, amount: 0.3}}
+        viewport={{once: true, amount: 0.3}}
         className='text-text flex-1'
         >
           <h2 className='h2 lg:text-[70px] tracking-wider'>About me</h2>
@@ -63,8 +75,7 @@ const About = () => {
         </div>
       </div>
         <div className='flex gap-x-7 items-center'>
-        <button className='btn btn-lg font-text tracking-[5px] text-xl' id='button'>RESUME</button>
-        <a href='#' className='text-gradient btn-link text-xl tracking-[2px]'>CONTACT ME</a>
+        <button className='btn btn-lg font-text tracking-[5px] text-xl' id='button' onClick={()=>{downloadFileAtURL(PDF_FILE_URL);}}>RESUME</button>
         </div>
         </motion.div>
         </div>
