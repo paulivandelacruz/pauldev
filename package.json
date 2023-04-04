@@ -1,6 +1,6 @@
 {
-  "homepage": "https://paulivandelacruz.github.io/paudldev",
-  "name": "pauldev.github.io",
+  "homepage": "https://paulivandelacruz.github.io/pauldev",
+  "name": "pauldev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
