@@ -6,17 +6,16 @@ import Contact from './routes/Contact'
 import Header from './routes/Header'
 import TechStack from './routes/TechStack'
 
-
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Header/>
-      <Home/>
-      <About/>
-      <TechStack/>
-      <Project/>
-      <Contact/>
+      <Navbar />
+      <Header />
+      <Home />
+      <About />
+      <TechStack />
+      <Project />
+      <Contact />
       <div className='h-[150px]'></div>
     </div>
   );

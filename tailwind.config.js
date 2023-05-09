@@ -10,6 +10,7 @@ module.exports = {
       tertiary: 'Aldrich',
       text: 'Bebas Neue',
       text2: 'Alkatra',
+      rubik: 'Rubik',
 
     },
     container: {
