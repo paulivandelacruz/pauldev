@@ -7,6 +7,18 @@ import img1 from '../images/cleaningly.png'
 import img2 from '../images/portfolio-image-2.png'
 import img3 from '../images/portfolio-image-3.png'
 
+import html from '../images/HTML.png'
+import css from '../images/CSS.png'
+import javascript from '../images/JAVASCRIPT.png'
+import typescript from '../images/typescript.png'
+import reactjs from '../images/reactjs.png'
+import nodejs from '../images/nodejs.png'
+import nextjs from '../images/nextjs.png'
+import material from '../images/material.png'
+
+import canva from '../images/canva.png'
+import photoshop from '../images/photoshop.png'
+
 const Project = () => {
   return (
     <section className='section' id='project'>
@@ -44,6 +56,18 @@ const Project = () => {
                   <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
                     <span className='text-3xl text-white'>Console Cleaningly</span>
                   </div>
+                  <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50 text-white'>
+                    <div className='flex items-center gap-x-1 max-w-max mx-auto'>
+                      <h3>
+                        Technology used:
+                      </h3>
+                      <img className='w-7' src={reactjs} alt='' />
+                      <img className='w-7' src={typescript} alt='' />
+                      <img className='w-7' src={material} alt='' />
+                      <img className='w-7' src={nextjs} alt='' />
+                      <img className='w-7' src={nodejs} alt='' />
+                    </div>
+                  </div>
             </motion.div>
           </div>
 
@@ -63,6 +87,17 @@ const Project = () => {
                   <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
                     <span className='text-3xl text-white'>Sample Valorant Web</span>
                   </div>
+
+                  <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50 text-white'>
+                    <div className='flex items-center gap-x-1 max-w-max mx-auto'>
+                      <h3>
+                        Technology used:
+                      </h3>
+                      <img className='w-7' src={html} alt='' />
+                      <img className='w-7' src={css} alt='' />
+                      <img className='w-7' src={javascript} alt='' />
+                    </div>
+                  </div>
                 </div>
 
             <div className='group relative overflow-hidden  border-2 border-black rounded-xl'>
@@ -74,6 +109,16 @@ const Project = () => {
                 <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
                   <span className='text-3xl text-white'>Sample Graphic Designs</span>
                 </div>
+
+                <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50 text-white'>
+                    <div className='flex items-center gap-x-2 max-w-max mx-auto'>
+                      <h3>
+                        Technology used:
+                      </h3>
+                      <img className='w-7' src={photoshop} alt='' />
+                      <img className='w-7' src={canva} alt='' />
+                    </div>
+                  </div>
             </div>
           </motion.div>
         </div>
