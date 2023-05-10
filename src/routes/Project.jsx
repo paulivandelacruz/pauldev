@@ -4,7 +4,7 @@ import { fadeIn } from '../variants'
 
 //images
 import img1 from '../images/cleaningly.png'
-import img2 from '../images/portfolio-image-2.png'
+import img2 from '../images/portfolio-image-4.png'
 import img3 from '../images/portfolio-image-3.png'
 
 import html from '../images/HTML.png'
@@ -15,6 +15,7 @@ import reactjs from '../images/reactjs.png'
 import nodejs from '../images/nodejs.png'
 import nextjs from '../images/nextjs.png'
 import material from '../images/material.png'
+import tailwind from '../images/Tailwind.png'
 
 import canva from '../images/canva.png'
 import photoshop from '../images/photoshop.png'
@@ -82,10 +83,10 @@ const Project = () => {
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                   <img className='group-hover:scale-125 transition-all duration-500' src={img2} alt='' />
                   <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                    <span className='text-gradient font-text'>UI/UX Design</span>
+                    <span className='text-gradient font-text'>Web Development</span>
                     </div>
                   <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                    <span className='text-3xl text-white'>Sample Valorant Web</span>
+                    <span className='text-3xl text-white'>Personal Portfolio</span>
                   </div>
 
                   <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50 text-white'>
@@ -93,9 +94,8 @@ const Project = () => {
                       <h3>
                         Technology used:
                       </h3>
-                      <img className='w-7' src={html} alt='' />
-                      <img className='w-7' src={css} alt='' />
-                      <img className='w-7' src={javascript} alt='' />
+                      <img className='w-7' src={reactjs} alt='' />
+                      <img className='w-7' src={tailwind} alt='' />
                     </div>
                   </div>
                 </div>

@@ -5,22 +5,11 @@ import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 import img from '../images/about-me.svg'
 
-const PDF_FILE_URL='public/MyResumeDelaCruz.pdf'
-
 const About = () => {
+  
   const [ref, inView] = useInView ({
     threshold: 0.5,
   });
-
-  const downloadFileAtURL = (url) => {
-    const fileName = url.split('/').pop();
-    const aTag = document.createElement('a');
-    aTag.href=url;
-    aTag.setAttribute('download', fileName)
-    document.body.appendChild(aTag)
-    aTag.click()
-    aTag.remove()
-  }
 
   return (
     <section className='section' id='about' ref={ref}>
@@ -75,7 +64,11 @@ const About = () => {
         </div>
       </div>
         <div className='flex gap-x-7 items-center'>
-        <button className='btn btn-lg font-text tracking-[5px] text-xl' id='button' onClick={()=>{downloadFileAtURL(PDF_FILE_URL);}}>RESUME</button>
+        <button className='btn btn-lg font-text tracking-[5px] text-xl' id='button'>
+          <a href='https://docs.google.com/document/d/1tgH01uc_x9Cqbq2IcXDUMPp-KjoGZsjQGymxS7DDy5E/edit?usp=sharing'>
+          RESUME
+          </a>
+        </button>
         </div>
         </motion.div>
         </div>

@@ -5,6 +5,7 @@ import About from './routes/About'
 import Contact from './routes/Contact'
 import Header from './routes/Header'
 import TechStack from './routes/TechStack'
+import Footer from './routes/Footer'
 
 import { Helmet } from 'react-helmet'
 
@@ -22,8 +23,8 @@ function App() {
       <TechStack />
       <Project />
       <Contact />
-
-      <div className='h-[150px]'></div>
+      <Footer />
+      <div className='h-[25px]'></div>
     </div>
   );
 }

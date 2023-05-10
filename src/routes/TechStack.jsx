@@ -61,7 +61,7 @@ const TechStack = () => {
 
                     <div className='shadow-md shadow-[#2eabff] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={reactjs} alt=''/>
-                        <p className='text-text my-4'>React</p>
+                        <p className='text-text my-4'>React JS</p>
                     </div>
 
                     <div className='shadow-md shadow-[green] hover:scale-110 duration-500'>
@@ -71,7 +71,7 @@ const TechStack = () => {
 
                     <div className='shadow-md shadow-[#29fde1] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={tailwind} alt=''/>
-                        <p className='text-text my-4'>Tailwind</p>
+                        <p className='text-text my-4'>Tailwind CSS</p>
                     </div>
 
                     <div className='shadow-md shadow-[#e51fff] hover:scale-110 duration-500'>
