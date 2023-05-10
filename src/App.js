@@ -6,9 +6,15 @@ import Contact from './routes/Contact'
 import Header from './routes/Header'
 import TechStack from './routes/TechStack'
 
+import { Helmet } from 'react-helmet'
+
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <title>Paul Ivan - Software Engineer</title>
+        <meta name="description" content="Helmet application" />
+      </Helmet>
       <Navbar />
       <Header />
       <Home />
@@ -16,6 +22,7 @@ function App() {
       <TechStack />
       <Project />
       <Contact />
+
       <div className='h-[150px]'></div>
     </div>
   );
