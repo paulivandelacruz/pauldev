@@ -12,6 +12,8 @@ import nextjs from '../images/nextjs.png'
 import tailwind from '../images/Tailwind.png'
 import bootstrap from '../images/bootstrap.png'
 import material from '../images/material.png'
+import mongodb from '../images/mongodb.png'
+import redux from '../images/redux.png'
 
 //motion and variants
 import { motion } from 'framer-motion'
@@ -64,9 +66,19 @@ const TechStack = () => {
                         <p className='text-text my-4'>React JS</p>
                     </div>
 
+                    <div className='shadow-md shadow-[#6c429c] hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto' src={redux} alt=''/>
+                        <p className='text-text my-4'>Redux Toolkit</p>
+                    </div>
+
                     <div className='shadow-md shadow-[green] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={nodejs} alt=''/>
                         <p className='text-text my-4'>Node JS</p>
+                    </div>
+
+                    <div className='shadow-md shadow-[#9ae766] hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto' src={mongodb} alt=''/>
+                        <p className='text-text my-4'>MongoDB</p>
                     </div>
 
                     <div className='shadow-md shadow-[#29fde1] hover:scale-110 duration-500'>
