@@ -7,9 +7,6 @@ import img1 from '../images/cleaningly.png'
 import img2 from '../images/portfolio-image-4.png'
 import img3 from '../images/portfolio-image-3.png'
 
-import html from '../images/HTML.png'
-import css from '../images/CSS.png'
-import javascript from '../images/JAVASCRIPT.png'
 import typescript from '../images/typescript.png'
 import reactjs from '../images/reactjs.png'
 import nodejs from '../images/nodejs.png'
@@ -55,7 +52,7 @@ const Project = () => {
                     <span className='text-gradient font-text'>Web Development - Collaborative Project</span>
                     </div>
                   <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                    <span className='text-3xl text-white'>Console Cleaningly</span>
+                    <span className='text-3xl text-white'>Cleaningly Home Services</span>
                   </div>
                   <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50 text-white'>
                     <div className='flex items-center gap-x-1 max-w-max mx-auto'>
