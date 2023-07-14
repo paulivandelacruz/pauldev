@@ -34,7 +34,7 @@ const About = () => {
         >
           <h2 className='h2 lg:text-[70px] tracking-wider'>About me</h2>
           <h3 className='h3 text-blue-700 mb-4 lg:text-[40px] tracking-wide'>Hello, I am Paul Ivan Dela Cruz</h3>
-          <p className='mb-6 font-text2'>A 21-years-old Computer Engineering Student, and aspiring Software Engineer. I am able to work well both in a team environment as well as using own initiative and I want to secure the position of the computer engineer where I can utilize my technical and management skills for achieving the target and delivering the best performance in the esteemed organization.</p>
+          <p className='mb-6 font-text2'>A 21-years-old Computer Engineering Student, and a Front-End Software Engineer. I am able to work well both in a team environment as well as using own initiative and I want to secure the position of the computer engineer where I can utilize my technical and management skills for achieving the target and delivering the best performance in the esteemed organization.</p>
       <div className='flex gap-x-6 lg:gap-x-10 mb-4'>
         <div>
           <div className='text-[40px] text-gradient mb-2'>
