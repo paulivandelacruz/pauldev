@@ -60,7 +60,7 @@ const About = () => {
           </div>
           <div className='text-sm tracking-[2px]'>
             Awards<br/>Received
-          </div>
+          </div> 
         </div>
       </div>
         <div className='flex gap-x-7 items-center'>
