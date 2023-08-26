@@ -17,6 +17,7 @@ import tailwind from '../images/Tailwind.png'
 import canva from '../images/canva.png'
 import photoshop from '../images/photoshop.png'
 
+
 const Project = () => {
   return (
     <section className='section' id='project'>
@@ -32,14 +33,13 @@ const Project = () => {
             >
               <h2 className='h2 leading-tight text-accent lg:text-[70px]'>My Latest<br/>Projects
               </h2>
-              <p className='max-w-sm mb-6 font-text2'>
-                These are my current outputs as I experience working in Web Development projects and designs. 
+              <p className='max-w-sm mb-12 font-text2'>
+                These are my current outputs as I experience working in Web Development projects and designs 
+                during my Internship and Freelancing. 
               </p>
-              <button className='w-1/5 my-1 py-2 bg-accent shadow-lg shadow-black-500
-              /50 font-semibold rounded-lg text-white tracking-wider font-rubik'>View All </button>
             </motion.div>
 
-            <motion.div 
+          <motion.div 
               variants={fadeIn('up', 0.7)}
               initial='hidden'
               whileInView={'show'}
@@ -64,9 +64,9 @@ const Project = () => {
                       <img className='w-7' src={material} alt='' />
                       <img className='w-7' src={nextjs} alt='' />
                       <img className='w-7' src={nodejs} alt='' />
-                    </div>
-                  </div>
-            </motion.div>
+                </div>
+              </div>
+          </motion.div>
           </div>
 
               <motion.div 
