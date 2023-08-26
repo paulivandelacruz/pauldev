@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/pauldev/static/css/main.991419ee.css",
-    "main.js": "/pauldev/static/js/main.073266e9.js",
+    "main.js": "/pauldev/static/js/main.d939e2cf.js",
     "static/media/MyPicture.svg": "/pauldev/static/media/MyPicture.5004caa0afd6b8e1961cd665c3c6f52a.svg",
     "static/media/about-me.svg": "/pauldev/static/media/about-me.b36451343fd6a7b07f9ff630e96b9efd.svg",
-    "static/media/portfolio-image-5.png": "/pauldev/static/media/portfolio-image-5.cb5ccd7ea765d557577d.png",
+    "static/media/portfolio-image-5.png": "/pauldev/static/media/portfolio-image-5.e604489e9e37bd134b91.png",
     "static/media/portfolio-image-4.png": "/pauldev/static/media/portfolio-image-4.abfa00dc114629e198e9.png",
     "static/media/cleaningly.png": "/pauldev/static/media/cleaningly.81e5dd3dfd2c9a844d29.png",
     "static/media/reactjs.png": "/pauldev/static/media/reactjs.5d1146b6978662af8495.png",
@@ -22,10 +22,10 @@
     "static/media/MyLogo.svg": "/pauldev/static/media/MyLogo.6e94263b6ff5e59d9ccef4312dcc57f1.svg",
     "index.html": "/pauldev/index.html",
     "main.991419ee.css.map": "/pauldev/static/css/main.991419ee.css.map",
-    "main.073266e9.js.map": "/pauldev/static/js/main.073266e9.js.map"
+    "main.d939e2cf.js.map": "/pauldev/static/js/main.d939e2cf.js.map"
   },
   "entrypoints": [
     "static/css/main.991419ee.css",
-    "static/js/main.073266e9.js"
+    "static/js/main.d939e2cf.js"
   ]
 }
