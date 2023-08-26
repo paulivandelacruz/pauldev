@@ -5,7 +5,7 @@ import { fadeIn } from '../variants'
 //images
 import img1 from '../images/cleaningly.png'
 import img2 from '../images/portfolio-image-4.png'
-import img3 from '../images/portfolio-image-3.png'
+import img3 from '../images/portfolio-image-5.png'
 
 import typescript from '../images/typescript.png'
 import reactjs from '../images/reactjs.png'
@@ -13,9 +13,8 @@ import nodejs from '../images/nodejs.png'
 import nextjs from '../images/nextjs.png'
 import material from '../images/material.png'
 import tailwind from '../images/Tailwind.png'
+import css from '../images/CSS.png'
 
-import canva from '../images/canva.png'
-import photoshop from '../images/photoshop.png'
 
 
 const Project = () => {
@@ -97,26 +96,26 @@ const Project = () => {
                   </div>
                 </div>
 
-            <div className='group relative overflow-hidden  border-2 border-black rounded-xl'>
-              <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
-                <img className='group-hover:scale-125 transition-all duration-500' src={img3} alt='' />
-                <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                  <span className='text-gradient font-text'>Graphic Design</span>
-                  </div>
-                <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                  <span className='text-3xl text-white'>Sample Graphic Designs</span>
-                </div>
-
-                <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50 text-white'>
-                    <div className='flex items-center gap-x-2 max-w-max mx-auto'>
-                      <h3>
-                        Technology used:
-                      </h3>
-                      <img className='w-7' src={photoshop} alt='' />
-                      <img className='w-7' src={canva} alt='' />
+                <div className='group relative overflow-hidden  border-2 border-black rounded-xl'>
+                  <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+                  <img className='group-hover:scale-125 transition-all duration-500' src={img3} alt='' />
+                    <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+                      <span className='text-gradient font-text'>Web Development</span>
+                      </div>
+                    <div className='absolute -bottom-full left-12 group-hover:bottom-7 transition-all duration-700 z-50'>
+                      <span className='text-3xl text-white'>PCU-Interactive Society of<br/>Computer Engineering Students</span>
                     </div>
+
+                    <div className='absolute -bottom-full left-12 group-hover:bottom-1 transition-all duration-1000 z-50 text-white'>
+                      <div className='flex items-center gap-x-1 max-w-max mx-auto'>
+                        <h3>
+                          Technology used:
+                        </h3>
+                        <img className='w-7' src={reactjs} alt='' />
+                        <img className='w-7' src={css} alt='' />
+                      </div>
                   </div>
-            </div>
+                </div>
           </motion.div>
         </div>
       </div>
