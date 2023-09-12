@@ -14,6 +14,7 @@ import nextjs from '../images/nextjs.png'
 import material from '../images/material.png'
 import tailwind from '../images/Tailwind.png'
 import css from '../images/CSS.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -54,7 +55,7 @@ const Project = () => {
                     <span className='text-3xl text-white'>Cleaningly Home Services</span>
                   </div>
                   <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50 text-white'>
-                    <div className='flex items-center gap-x-1 max-w-max mx-auto'>
+                    <div className='flex justify-between items-center'>
                       <h3>
                         Technology used:
                       </h3>
@@ -63,8 +64,11 @@ const Project = () => {
                       <img className='w-7' src={material} alt='' />
                       <img className='w-7' src={nextjs} alt='' />
                       <img className='w-7' src={nodejs} alt='' />
+                      <h3 className='ml-[146px] hover:text-blue-300'>
+                        <a href='https://booking.cleaningly.com.au/'>View Website</a>
+                      </h3>
+                    </div>
                 </div>
-              </div>
           </motion.div>
           </div>
 
@@ -92,6 +96,9 @@ const Project = () => {
                       </h3>
                       <img className='w-7' src={reactjs} alt='' />
                       <img className='w-7' src={tailwind} alt='' />
+                      <h3 className='ml-[220px] hover:text-blue-300'>
+                        <a href='/'>View Website</a>
+                      </h3>
                     </div>
                   </div>
                 </div>
@@ -113,6 +120,9 @@ const Project = () => {
                         </h3>
                         <img className='w-7' src={reactjs} alt='' />
                         <img className='w-7' src={css} alt='' />
+                        <h3 className='ml-[227px] hover:text-blue-300'>
+                          <a href='https://pcu-pisces.netlify.app/'>View Website</a>
+                        </h3>
                       </div>
                   </div>
                 </div>
