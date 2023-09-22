@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from '../images/MyPicture.svg'
+import Image from '../images/newLogo.png'
 import {AiOutlineCodepen, AiOutlineLinkedin, AiOutlineGithub, AiOutlineFacebook, AiOutlineInstagram} from 'react-icons/ai'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
@@ -9,6 +9,8 @@ const Home = () => {
   
   return (
     <section className='min-h-[85vh] lg:min-h-[70vh] flex items-center' id='home'>
+
+      
       <div className='container mx-auto'>
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-10'>
           <div className='text-text flex-1 text-center lg:text-left'>

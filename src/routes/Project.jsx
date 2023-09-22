@@ -4,17 +4,9 @@ import { fadeIn } from '../variants'
 
 //images
 import img1 from '../images/cleaningly.png'
-import img2 from '../images/portfolio-image-4.png'
+import img2 from '../images/portfolio-image-6.png'
 import img3 from '../images/portfolio-image-5.png'
-
-import typescript from '../images/typescript.png'
-import reactjs from '../images/reactjs.png'
-import nodejs from '../images/nodejs.png'
-import nextjs from '../images/nextjs.png'
-import material from '../images/material.png'
-import tailwind from '../images/Tailwind.png'
-import css from '../images/CSS.png'
-import { Link } from 'react-router-dom'
+import img4 from '../images/portfolio-image-4.png'
 
 
 
@@ -22,7 +14,7 @@ const Project = () => {
   return (
     <section className='section' id='project'>
       <div className='container mx-auto'>
-        <div className='text-text flex flex-col lg:flex-row gap-x-10'>
+        <div className='text-text flex flex-col lg:flex-row gap-x-10 lg:mt-[31rem]'>
           <div className='flex-1 flex flex-col mb-10 lg:mb-0'>
             
             <motion.div
@@ -48,24 +40,40 @@ const Project = () => {
             >
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                   <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt='' />
-                  <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                    <span className='text-gradient font-text'>Web Development - Collaborative Project</span>
+                  <div className='absolute -bottom-full left-6 lg:left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+                    <span className='text-gradient font-text'>Web Development</span>
                     </div>
-                  <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                    <span className='text-3xl text-white'>Cleaningly Home Services</span>
+                  <div className='absolute -bottom-full left-6 lg:left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+                    <span className='text-2xl lg:text-3xl text-white'>Cleaningly Home Services</span>
                   </div>
-                  <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50 text-white'>
-                    <div className='flex justify-between items-center'>
-                      <h3>
-                        Technology used:
-                      </h3>
-                      <img className='w-7' src={reactjs} alt='' />
-                      <img className='w-7' src={typescript} alt='' />
-                      <img className='w-7' src={material} alt='' />
-                      <img className='w-7' src={nextjs} alt='' />
-                      <img className='w-7' src={nodejs} alt='' />
-                      <h3 className='ml-[146px] hover:text-blue-300'>
+                  <div className='absolute -bottom-full left-6 lg:left-12 group-hover:bottom-4 transition-all duration-1000 z-50 text-white'>
+                    <div className='flex items-start'>
+                      <h3 className=' hover:text-blue-300'>
                         <a href='https://booking.cleaningly.com.au/'>View Website</a>
+                      </h3>
+                    </div>
+                </div>
+          </motion.div>
+
+          <motion.div 
+              variants={fadeIn('up', 0.7)}
+              initial='hidden'
+              whileInView={'show'}
+              viewport={{once: true, amount: 0.3}}
+              className='group relative overflow-hidden  border-2 border-black rounded-xl mt-7'
+            >
+                <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
+                  <img className='group-hover:scale-125 transition-all duration-500' src={img4} alt='' />
+                  <div className='absolute -bottom-full left-6 lg:left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+                    <span className='text-gradient font-text'>Web Development</span>
+                    </div>
+                  <div className='absolute -bottom-full left-6 lg:left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+                    <span className='text-2xl lg:text-3xl text-white'>Personal Portfolio</span>
+                  </div>
+                  <div className='absolute -bottom-full left-6 lg:left-12 group-hover:bottom-4 transition-all duration-1000 z-50 text-white'>
+                    <div className='flex justify-between items-center'>
+                      <h3 className=' hover:text-blue-300'>
+                        <a href='https://paulivandelacruz.github.io/pauldev/'>View Website</a>
                       </h3>
                     </div>
                 </div>
@@ -82,50 +90,43 @@ const Project = () => {
               <div className='group relative overflow-hidden  border-2 border-black rounded-xl'>
                 <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                   <img className='group-hover:scale-125 transition-all duration-500' src={img2} alt='' />
-                  <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+                  <div className='absolute -bottom-full left-6 lg:left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                     <span className='text-gradient font-text'>Web Development</span>
                     </div>
-                  <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                    <span className='text-3xl text-white'>Personal Portfolio</span>
+                  <div className='absolute -bottom-full left-6 lg:left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
+                    <span className='text-2xl lg:text-3xl text-white'>The Grown Merchandising Inc.</span>
                   </div>
 
-                  <div className='absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-1000 z-50 text-white'>
+                  <div className='absolute -bottom-full left-6 lg:left-12 group-hover:bottom-4 transition-all duration-1000 z-50 text-white'>
                     <div className='flex items-center gap-x-1 max-w-max mx-auto'>
-                      <h3>
-                        Technology used:
-                      </h3>
-                      <img className='w-7' src={reactjs} alt='' />
-                      <img className='w-7' src={tailwind} alt='' />
-                      <h3 className='ml-[220px] hover:text-blue-300'>
-                        <a href='/'>View Website</a>
+                      <h3 className='hover:text-blue-300'>
+                        View Website
                       </h3>
                     </div>
                   </div>
                 </div>
 
+                
+
                 <div className='group relative overflow-hidden  border-2 border-black rounded-xl'>
                   <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
                   <img className='group-hover:scale-125 transition-all duration-500' src={img3} alt='' />
-                    <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+                    <div className='absolute -bottom-full left-6 lg:left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                       <span className='text-gradient font-text'>Web Development</span>
                       </div>
-                    <div className='absolute -bottom-full left-12 group-hover:bottom-7 transition-all duration-700 z-50'>
-                      <span className='text-3xl text-white'>PCU-Interactive Society of<br/>Computer Engineering Students</span>
+                    <div className='absolute -bottom-full left-6 lg:left-12 group-hover:bottom-7 transition-all duration-700 z-50'>
+                      <span className='text-2xl lg:text-3xl text-white'>PCU-Interactive Society of<br/>Computer Engineering Students</span>
                     </div>
 
-                    <div className='absolute -bottom-full left-12 group-hover:bottom-1 transition-all duration-1000 z-50 text-white'>
+                    <div className='absolute -bottom-full left-6 lg:left-12 group-hover:bottom-1 transition-all duration-1000 z-50 text-white'>
                       <div className='flex items-center gap-x-1 max-w-max mx-auto'>
-                        <h3>
-                          Technology used:
-                        </h3>
-                        <img className='w-7' src={reactjs} alt='' />
-                        <img className='w-7' src={css} alt='' />
-                        <h3 className='ml-[227px] hover:text-blue-300'>
+                        <h3 className='hover:text-blue-300'>
                           <a href='https://pcu-pisces.netlify.app/'>View Website</a>
                         </h3>
                       </div>
                   </div>
                 </div>
+
           </motion.div>
         </div>
       </div>
