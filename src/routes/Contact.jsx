@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 
@@ -25,11 +25,14 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
           toast.success('Email has been sent')
+          window.location.reload(true)
       }, (error) => {
           console.log(error.text);
           toast.error('Error sending email')
       });
   };
+
+  const [ loading, setLoading ] = useState(false);
 
 
   return (
@@ -72,24 +75,28 @@ const Contact = () => {
               className='bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all' type='text' 
               placeholder='Name' 
               name='user_name'
+              required={true}
             />
 
             <input 
-              className='bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all' type='text' 
+              className='bg-transparent border-b py-3 outline-none w-full focus:border-accent transition-all' type='email'
               placeholder='Email' 
               name='user_email'
+              required={true}
             />
 
             <textarea 
               className='bg-transparent border-b py-12 outline-none w-full focus:border-accent transition-all resize-none mb-12' 
               placeholder='Message'
               name='message'
+              required={true}
             ></textarea>
             
             <button 
               className='font-rubik w-1/3 my-1 py-2 bg-accent shadow-lg shadow-black-500
               /50 font-semibold rounded-lg text-white tracking-widest'
               value='Send'
+              disabled={loading}
               >Send Message
             </button>
           </motion.form>
