@@ -13,8 +13,8 @@ import img4 from '../images/portfolio-image-4.png'
 const Project = () => {
   return (
     <section className='section' id='project'>
-      <div className='container mx-auto mt-[21rem] xl:mt-[-20rem]'>
-        <div className='text-text flex flex-col lg:flex-row gap-x-10 lg:mt-[5rem]'>
+      <div className='container mx-auto mt-[25rem] lg:mt-[22rem]'>
+        <div className='text-text flex flex-col lg:flex-row gap-x-10'>
           <div className='flex-1 flex flex-col mb-10 lg:mb-0'>
             
             <motion.div

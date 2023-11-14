@@ -34,7 +34,7 @@ const TechStack = () => {
   return (
     <section className='section' id='techstack'>
         <div className='container mx-auto p-4 flex flex-col justify-center w-full h-full '>
-            <div className='mt-[300px] lg:mt-0 lg:gap-y-0 h-screen '>
+            <div className='mt-[45rem] lg:mt-0 lg:gap-y-0 h-screen '>
                 <motion.h1
                 variants={fadeIn('down', 0.3)}
                 initial='hidden'
