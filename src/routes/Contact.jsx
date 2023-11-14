@@ -66,7 +66,7 @@ const Contact = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{once: true, amount: 0.3}} 
-            className='font-rubik flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start lg:ml-[200px]'
+            className='mt-6 font-rubik flex-1 shadow-md shadow-slate-500 rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start lg:ml-[200px]'
             ref={form}
             onSubmit={sendEmail}
           >

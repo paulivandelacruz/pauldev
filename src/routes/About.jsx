@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer'
 import CountUp from 'react-countup'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
-import img from '../images/about-me.svg'
+import img from '../images/about-me.png'
 
 const About = () => {
   
@@ -20,7 +20,7 @@ const About = () => {
         initial='hidden'
         whileInView={'show'}
         viewport={{once: true, amount: 0.3}}
-        className='flex-1 h-[640px]'
+        className='flex-1'
         >
           <img src={img} alt=''></img>
         </motion.div>
@@ -32,9 +32,9 @@ const About = () => {
         viewport={{once: true, amount: 0.3}}
         className='text-text flex-1'
         >
-          <h2 className='h2 lg:text-[70px] tracking-wider'>About me</h2>
-          <h3 className='h3 text-blue-700 mb-4 lg:text-[40px] tracking-wide'>Hello, I am Paul Ivan Dela Cruz</h3>
-          <p className='mb-6 font-text2'>A 22-years-old Computer Engineering Graduate, and a Front-End Software Engineer. I am able to work well both in a team environment as well as using own initiative and I want to secure the position of the computer engineer where I can utilize my technical and management skills for achieving the target and delivering the best performance in the esteemed organization.</p>
+          <h2 className='h2 text-[50px] lg:text-[70px] tracking-wider'>About me</h2>
+          <h3 className='h3 font-rubik font-semibold text-[23px] text-blue-700 mb-4 lg:text-[35px] tracking-wide'>Hello, I am Paul Ivan Dela Cruz</h3>
+          <p className='mb-6 font-rubik'>A 22-years-old Computer Engineering Graduate, and a Front-End Software Engineer. I am able to work well both in a team environment as well as using own initiative and I want to secure the position of the computer engineer where I can utilize my technical and management skills for achieving the target and delivering the best performance in the esteemed organization.</p>
       <div className='flex gap-x-6 lg:gap-x-10 mb-4'>
         <div>
           <div className='text-[40px] text-gradient mb-2'>

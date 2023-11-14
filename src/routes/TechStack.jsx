@@ -14,6 +14,17 @@ import bootstrap from '../images/bootstrap.png'
 import material from '../images/material.png'
 import mongodb from '../images/mongodb.png'
 import redux from '../images/redux.png'
+import mysql from '../images/mysql.png'
+import ruby from '../images/ruby.png'
+import rails from '../images/rails.png'
+import postgresql from '../images/postgresql.png'
+import photoshop from '../images/photoshop.png'
+import canva from '../images/canva.png'
+import illustrator from '../images/illustrator.png'
+import github from '../images/github.png'
+import git from '../images/git.png'
+import davinci from '../images/davinci.png'
+import linux from '../images/linux.png'
 
 //motion and variants
 import { motion } from 'framer-motion'
@@ -23,13 +34,13 @@ const TechStack = () => {
   return (
     <section className='section' id='techstack'>
         <div className='container mx-auto p-4 flex flex-col justify-center w-full h-full '>
-            <div className='mt-[400px] lg:mt-0 lg:gap-y-0 h-screen '>
+            <div className='mt-[300px] lg:mt-0 lg:gap-y-0 h-screen '>
                 <motion.h1
                 variants={fadeIn('down', 0.3)}
                 initial='hidden'
                 whileInView={'show'}
                 viewport={{once: true, amount: 0.3}}
-                className='text-text text-4xl  lg:text-[70px]'
+                className='text-text text-[50px] lg:text-[70px]'
                 
                 >Technology Stack
                 </motion.h1>
@@ -39,67 +50,55 @@ const TechStack = () => {
                 initial='hidden'
                 whileInView={'show'}
                 viewport={{once: true, amount: 0.3}}
-                className='w-full grid grid-cols-3 sm:grid-cols-5 gap-4 text-center py-8 '
+                className='w-full flex flex-col gap-5 items-center justify-center lg:flex lg:flex-row lg:gap-5 mt-10'
                 >
-                    <div className='shadow-md shadow-[orange] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={html} alt=''/>
-                        <p className='text-text my-4'>HTML</p>
+                    <div className='w-full h-[18rem] md:h-[19rem] text-text shadow-md shadow-slate-500 rounded-lg'>
+                        <h1 className='font-bold font-rubik text-md flex items-center justify-center m-5 lg:text-xl'>
+                            Frontend Tools & Frameworks
+                        </h1>
+                        <div className='grid grid-cols-4 place-items-center gap-y-4'>
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={html} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={css} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={material} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={tailwind} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={bootstrap} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={nextjs} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={reactjs} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={javascript} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={typescript} alt='...' />
+                        </div>
                     </div>
 
-                    <div className='shadow-md shadow-[blue] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={css} alt=''/>
-                        <p className='text-text my-4'>CSS</p>
+                    <div className='w-full h-[18rem] md:h-[19rem] text-text shadow-md shadow-slate-500 rounded-lg'>
+                        <h1 className='font-bold font-rubik text-md flex items-center justify-center m-5 lg:text-xl'>
+                            Backend Tools & Frameworks
+                        </h1>
+                        <div className='grid grid-cols-4 place-items-center gap-y-4'>
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={ruby} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={rails} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={nodejs} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={mongodb} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={mysql} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={postgresql} alt='...' />
+                        </div>
                     </div>
 
-                    <div className='shadow-md shadow-[yellow] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={javascript} alt=''/>
-                        <p className='text-text my-4'>Javascript</p>
+                    <div className='w-full h-[18rem] md:h-[19rem] text-text shadow-md shadow-slate-500 rounded-lg'>
+                        <h1 className='font-bold font-rubik text-md flex items-center justify-center m-5 lg:text-xl'>
+                            Other Tools
+                        </h1>
+                        <div className='grid grid-cols-4 place-items-center gap-y-4'>
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={linux} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={redux} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={github} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={git} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={photoshop} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={illustrator} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={canva} alt='...' />
+                            <img className='w-[3.5rem] hover:scale-125 duration-500' src={davinci} alt='...' />
+                        </div>
                     </div>
 
-                    <div className='shadow-md shadow-[#2c5dff] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={typescript} alt=''/>
-                        <p className='text-text my-4'>Typescript</p>
-                    </div>
-
-                    <div className='shadow-md shadow-[#2eabff] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={reactjs} alt=''/>
-                        <p className='text-text my-4'>React JS</p>
-                    </div>
-
-                    <div className='shadow-md shadow-[#6c429c] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={redux} alt=''/>
-                        <p className='text-text my-4'>Redux Toolkit</p>
-                    </div>
-
-                    <div className='shadow-md shadow-[green] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={nodejs} alt=''/>
-                        <p className='text-text my-4'>Node JS</p>
-                    </div>
-
-                    <div className='shadow-md shadow-[#9ae766] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={mongodb} alt=''/>
-                        <p className='text-text my-4'>MongoDB</p>
-                    </div>
-
-                    <div className='shadow-md shadow-[#29fde1] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={tailwind} alt=''/>
-                        <p className='text-text my-4'>Tailwind CSS</p>
-                    </div>
-
-                    <div className='shadow-md shadow-[#e51fff] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={bootstrap} alt=''/>
-                        <p className='text-text my-4'>Bootstrap</p>
-                    </div>
-
-                    <div className='shadow-md shadow-[black] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={nextjs} alt=''/>
-                        <p className='text-text my-4'>Next JS</p>
-                    </div>
-
-                    <div className='shadow-md shadow-[#3d27fc] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={material} alt=''/>
-                        <p className='text-text my-4'>Material UI</p>
-                    </div>
                 </motion.div>
             </div>
         </div>
