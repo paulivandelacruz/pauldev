@@ -1,32 +1,43 @@
 {
   "files": {
-    "main.css": "/pauldev/static/css/main.122294db.css",
-    "main.js": "/pauldev/static/js/main.0c6b103d.js",
-    "static/media/about-me.svg": "/pauldev/static/media/about-me.b36451343fd6a7b07f9ff630e96b9efd.svg",
+    "main.css": "/pauldev/static/css/main.e156ebff.css",
+    "main.js": "/pauldev/static/js/main.06ad36ec.js",
+    "static/media/about-me.png": "/pauldev/static/media/about-me.6127e63fa2dcdfe68312.png",
+    "static/media/canva.png": "/pauldev/static/media/canva.b71119c0804ae85dd5c0.png",
     "static/media/newLogo.png": "/pauldev/static/media/newLogo.2e4a933bc65f0040152b.png",
     "static/media/portfolio-image-5.png": "/pauldev/static/media/portfolio-image-5.e604489e9e37bd134b91.png",
     "static/media/portfolio-image-4.png": "/pauldev/static/media/portfolio-image-4.abfa00dc114629e198e9.png",
     "static/media/portfolio-image-6.png": "/pauldev/static/media/portfolio-image-6.cb8f5ce9fb3197796f2f.png",
     "static/media/cleaningly.png": "/pauldev/static/media/cleaningly.81e5dd3dfd2c9a844d29.png",
+    "static/media/ruby.png": "/pauldev/static/media/ruby.f8d55a61dc3385660138.png",
+    "static/media/davinci.png": "/pauldev/static/media/davinci.8115ecd30f49ed34c28a.png",
+    "static/media/linux.png": "/pauldev/static/media/linux.7bc63166f89427e3f013.png",
+    "static/media/illustrator.png": "/pauldev/static/media/illustrator.2553885983b184e928fa.png",
+    "static/media/mysql.png": "/pauldev/static/media/mysql.fa8e42c702955d2c2499.png",
     "static/media/reactjs.png": "/pauldev/static/media/reactjs.5d1146b6978662af8495.png",
+    "static/media/github.png": "/pauldev/static/media/github.b6c744845b5329447b27.png",
     "static/media/redux.png": "/pauldev/static/media/redux.5ead2fd3c82d3024af98.png",
     "static/media/Tailwind.png": "/pauldev/static/media/Tailwind.7878a169d05c8c23264f.png",
     "static/media/nodejs.png": "/pauldev/static/media/nodejs.145bbaccea7bbe415647.png",
+    "static/media/rails.png": "/pauldev/static/media/rails.ff9d58402a3e19c66afb.png",
+    "static/media/postgresql.png": "/pauldev/static/media/postgresql.b2f86c771fd0700636e3.png",
+    "static/media/photoshop.png": "/pauldev/static/media/photoshop.3ca7e92b57afdd355a1a.png",
     "static/media/HTML.png": "/pauldev/static/media/HTML.7a1ca03d8e933a620ce4.png",
     "static/media/CSS.png": "/pauldev/static/media/CSS.e501053924ba60ca1de3.png",
     "static/media/material.png": "/pauldev/static/media/material.49cea8f302a4ddddbcf1.png",
     "static/media/JAVASCRIPT.png": "/pauldev/static/media/JAVASCRIPT.6df7b35e780fe1d7e9f0.png",
     "static/media/mongodb.png": "/pauldev/static/media/mongodb.73841be621b0af94f4f2.png",
+    "static/media/git.png": "/pauldev/static/media/git.8833fc6ec4e6be27ef38.png",
     "static/media/nextjs.png": "/pauldev/static/media/nextjs.ca3cd9df2a59c2799638.png",
     "static/media/bootstrap.png": "/pauldev/static/media/bootstrap.660eecc2e52a353d0a76.png",
     "static/media/typescript.png": "/pauldev/static/media/typescript.5bef319a4b3f23387af4.png",
     "static/media/MyLogo.svg": "/pauldev/static/media/MyLogo.6e94263b6ff5e59d9ccef4312dcc57f1.svg",
     "index.html": "/pauldev/index.html",
-    "main.122294db.css.map": "/pauldev/static/css/main.122294db.css.map",
-    "main.0c6b103d.js.map": "/pauldev/static/js/main.0c6b103d.js.map"
+    "main.e156ebff.css.map": "/pauldev/static/css/main.e156ebff.css.map",
+    "main.06ad36ec.js.map": "/pauldev/static/js/main.06ad36ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.122294db.css",
-    "static/js/main.0c6b103d.js"
+    "static/css/main.e156ebff.css",
+    "static/js/main.06ad36ec.js"
   ]
 }
