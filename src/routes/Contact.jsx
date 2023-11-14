@@ -36,7 +36,7 @@ const Contact = () => {
 
 
   return (
-    <section className='py-16 lg:selection lg:mt-[31rem]' id='contact'>
+    <section className='py-16 lg:selection lg:mt-[31rem] xl:mt-[10rem]' id='contact'>
       <div className='text-text container mx-auto'>
         <div className='flex flex-col lg:flex-row'>
 
