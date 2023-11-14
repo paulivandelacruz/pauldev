@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pauldev/static/css/main.9370def7.css",
-    "main.js": "/pauldev/static/js/main.3dfe28b3.js",
+    "main.css": "/pauldev/static/css/main.514d5171.css",
+    "main.js": "/pauldev/static/js/main.25b37a68.js",
     "static/media/about-me.png": "/pauldev/static/media/about-me.6127e63fa2dcdfe68312.png",
     "static/media/canva.png": "/pauldev/static/media/canva.b71119c0804ae85dd5c0.png",
     "static/media/newLogo.png": "/pauldev/static/media/newLogo.2e4a933bc65f0040152b.png",
@@ -33,11 +33,11 @@
     "static/media/typescript.png": "/pauldev/static/media/typescript.5bef319a4b3f23387af4.png",
     "static/media/MyLogo.svg": "/pauldev/static/media/MyLogo.6e94263b6ff5e59d9ccef4312dcc57f1.svg",
     "index.html": "/pauldev/index.html",
-    "main.9370def7.css.map": "/pauldev/static/css/main.9370def7.css.map",
-    "main.3dfe28b3.js.map": "/pauldev/static/js/main.3dfe28b3.js.map"
+    "main.514d5171.css.map": "/pauldev/static/css/main.514d5171.css.map",
+    "main.25b37a68.js.map": "/pauldev/static/js/main.25b37a68.js.map"
   },
   "entrypoints": [
-    "static/css/main.9370def7.css",
-    "static/js/main.3dfe28b3.js"
+    "static/css/main.514d5171.css",
+    "static/js/main.25b37a68.js"
   ]
 }
